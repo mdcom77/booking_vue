@@ -39,6 +39,7 @@
 //import '@fortawesome/fontawesome-free/js/all.js' ;
 
 export default {
+    //use value wwhen need to bind prop as v-model
     props:{
         raiting: Number,
         value: Number
