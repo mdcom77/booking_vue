@@ -39,9 +39,9 @@
 //import '@fortawesome/fontawesome-free/js/all.js' ;
 
 export default {
-    //use value wwhen need to bind prop as v-model
+    //use value when need to bind prop as v-model in parent component  
     props:{
-        raiting: Number,
+        //raiting: Number,
         value: Number
     },
     computed: {

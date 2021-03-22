@@ -44,5 +44,10 @@ export default {
             this.review.raiting=raiting;
         }
     },
+    created(){
+        // 1. Check if the review exists (by UUID key) If exixst - Good buye
+        // 2. Get the bookinng assosiated with this review (UIID key should be generated with the booking in advance and send as link to reviewer)
+        // 3. Store review. Deactivate the UIID key
+    },
 }
 </script>
